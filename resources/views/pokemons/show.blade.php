@@ -9,7 +9,7 @@
 
     @if ($pokemon->photo)
     <img src="{{ asset(str_replace('public/', '/storage/', $pokemon->photo)) }}" alt="{{ $pokemon->name }}" class="img-fluid">
-    {{-- <img src="{{ asset('storage/' . $pokemon->photo) }}" alt="{{ $pokemon->name }}" class="img-fluid"> --}}
+    <img src="{{ asset('storage/' . $pokemon->photo) }}" alt="{{ $pokemon->name }}" class="img-fluid">
     {{-- <img src="{{ asset('storage/' . $shop->product_img) }}" alt="{{ $shop->product_name }}" class="img-fluid"> --}}
     @else
 
