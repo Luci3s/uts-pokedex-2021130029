@@ -1,0 +1,36 @@
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.pokemon-card {
+    transition: transform 0.3s ease-in-out;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #777;
+}
+
+.dropdown-menu {
+    display: none; /* Sembunyikan dropdown secara default */
+}
+
+.dropdown-menu.show {
+    display: block; /* Tampilkan dropdown saat aktif */
+}
